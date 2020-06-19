@@ -10,7 +10,10 @@
 * in index.js you have to use or bind some eventListeners (.addEventListener) to add the functionality
 * your eventListeners could listen to "change", "input" or suchlike
 * if you have trouble with the eventListers check the exercise we already made: https://github.com/BER-FBW25/Browser-Calculator
-
+* You can add one eventListener to the whole form which will listen to all input changes of the form. E.g. ```document.querySelector('.myForm').addEventListener('input', ()=> {
+  alert('Input changed!');
+})``` 
+The alert will be triggered at any change on any input element of .myForm (ask your good looking teacher if you don't get this point)
 
 **Notes**:
 * Deadline: ~ 1hr-1.5hrs
